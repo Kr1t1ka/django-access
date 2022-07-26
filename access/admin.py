@@ -14,7 +14,7 @@ from django.contrib.admin.filters import RelatedFieldListFilter
 from django.contrib.admin.utils import flatten_fieldsets
 
 
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from django.utils.encoding import force_text
 from django.utils.text import capfirst
